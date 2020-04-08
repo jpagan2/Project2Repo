@@ -103,13 +103,13 @@ p{
   display: inline-block;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
+  background-color: 889cb3;
 }
 .dropdown-content {
   float: none;
   display: none;
   position: relative;
-  background-color: #A28DB4;
+  background-color: black;
   text-align: center;
 }
 .dropdown-content a {
@@ -118,10 +118,10 @@ p{
   text-decoration: none;
   display: block;
   text-align: center;
-  background-color: #A28DB4;
+  background-color: black;
 }
 .dropdown-content a:hover {
-  background-color: gray;
+  background-color: 889cb3;
 }
 .dropdown:hover .dropdown-content {
   display: block;
