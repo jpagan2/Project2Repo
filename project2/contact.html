@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project2 ITMD362</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+</head>
+
+<body>
+ <h1>Contact Us</h1>
+  <nav>
+    <ul>
+        <li><a href="index.html">About Me</a>
+        <li><a href="about.html">Resume</a>
+        <li>Contact Us</li>
+    </ul>
+  </nav>
+  
+  <h1 id="titleForm">Subscribe to newsletter of trending mobile games</h1>
+
+  <div class="formelement">
+      <form name="signup" method="GET" action="#null">
+          <p>Complete the form bellow:</p>
+          <label for="fname" >First Name</label>
+          <p><input type="text" name="fname" id="fname"></p>
+          <label for="lname">Last Name</label>
+          <p><input type="text" name="lname" id="lname"></p>
+          <label for="email">E-Mail</label>
+          <p><input type="email" name="email" id="email" placeholder="name@email.com"></p>
+          <label for="phoneNum">Phone Number</label>
+          <p><input type="number" name="phoneNum" id="phoneNum" placeholder="***---****"></p>
+          <label for="dateOfBirth">Date of Birth</label>
+          <p><input type="date" name="dateOfBirth" id="dateOfBirth"></p>
+          <input type="submit" id="submitform" value="Submit" 
+              onclick="Response(document.signup.fname, document.signup.lname, 
+              document.signup.email, document.signup.phoneNum, document.signup.dateOfBirth)">
+      </form>
+      <h1>
+          In this "newsletter" you will be "provided" with "useful" "information"
+      </h1>
+  </div>
+</body>
+</html>
