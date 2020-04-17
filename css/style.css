@@ -186,6 +186,7 @@ p{
   font-size: larger;
   background-color: lightsteelblue;
   width: 100%;
+  text-align: left;
 }
 #logo{
   height:200px;
