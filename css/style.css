@@ -160,6 +160,72 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.header {
+  float: center;
+  background-color: lightblue;
+  width: 100%;
+  font-size: xx-large;
+  color: lightcoral
+}
+.column {
+float: left;
+width: 50%;
+background-color: lightsteelblue;
+}
+p{
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.top {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+#abt{
+  font-weight: bold;
+  font-size: larger;
+  background-color: lightsteelblue;
+  width: 100%;
+}
+#logo{
+  height:200px;
+  width:200px;
+}
+.btn {
+  border: blue;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 14px 28px;
+  font-size: large;
+  cursor: pointer;
+  float: right;
+  width: 50%;
+}
+
+.aboutimages{
+  background-color:lightsteelblue;
+  width: 50%;
+  float: left;
+}
+#mountain{
+  border-radius: 50px;
+  width: 24%;
+}
+#nature{
+  border-radius: 50px;
+  width: 24%;
+  float: right;
+}
+.History{
+  background-color: lightsteelblue;
+}
+#htry{
+  font-weight: bold;
+  font-size: larger;
+  background-color: lightsteelblue;
+}
+
 
 /*code for desktop*/
 @media only screen and (min-width: 768px) {
