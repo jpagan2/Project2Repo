@@ -221,6 +221,9 @@ p{
 .History{
   background-color: lightsteelblue;
 }
+.row{
+  width: 100%;
+}
 #htry{
   font-weight: bold;
   font-size: larger;
