@@ -24,6 +24,9 @@ form{
     width: 95%;
     text-align: center;
 }
+label{
+    font-size: 200%
+}
 #phoneNum,#fname,#lname,#email,#dateOfBirth,#submit{
     background-color: #7DF5FF;
 }
