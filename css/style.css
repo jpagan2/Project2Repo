@@ -169,7 +169,7 @@ a {
 }
 .column {
 float: left;
-width: 50%;
+width: 100%;
 background-color: lightsteelblue;
 }
 p{
@@ -186,7 +186,7 @@ p{
   font-size: larger;
   background-color: lightsteelblue;
   width: 100%;
-  text-align: left;
+  text-align: middle;
 }
 #logo{
   height:200px;
@@ -232,6 +232,7 @@ p{
 #ablogo{
   width: 100%;
 }
+
 
 /*code for desktop*/
 @media only screen and (min-width: 768px) {
